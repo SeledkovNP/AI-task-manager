@@ -8,22 +8,8 @@
 - **База данных:** PostgreSQL
 - **AI-сервис:** Python + Flask (порт 5001)
 
-## Структура проекта
-ai-task-manager/
-├── backend/ # Node.js REST API
-│ ├── db/ # SQL-скрипты и подключение к БД
-│ ├── middleware/ # JWT-авторизация
-│ ├── routes/ # Маршруты (auth, tasks)
-│ ├── services/ # Клиент для вызова AI-сервиса
-│ └── server.js # Главный файл сервера
-├── frontend/ # React-приложение
-│ └── src/
-│ ├── components/ # Login, Register, Dashboard
-│ ├── context/ # AuthContext (JWT)
-│ └── services/ # API-клиент (axios)
-└── ai-service/ # Python-сервис анализа текста
-├── app.py # Flask-сервер
-└── export_tasks.py # Скрипт выгрузки в CSV
+<img width="380" height="323" alt="image" src="https://github.com/user-attachments/assets/35f98303-2889-4dd4-b960-cf1f530864e3" />
+
 
 
 ## Как запустить
