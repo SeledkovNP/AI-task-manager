@@ -1,6 +1,12 @@
+# Уровень 2 (Middle / Strong Junior)
+## Задача
+Разработать AI Task Assistant.
+Это система управления задачами с автоматическим анализом текста задач.
+
+
 # AI Task Manager
 
-Система управления задачами с автоматическим AI-анализом приоритета и категории.
+Система управления задачами с автоматическим AI-анализом приоритета и категорие.
 
 ## Стек технологий
 - **Frontend:** React + JavaScript (порт 3000)
@@ -8,13 +14,9 @@
 - **База данных:** PostgreSQL
 - **AI-сервис:** Python + Flask (порт 5001)
 
-<img width="380" height="323" alt="image" src="https://github.com/user-attachments/assets/35f98303-2889-4dd4-b960-cf1f530864e3" />
+## Способ запуска
 
-
-
-## Как запустить
-
-### 1. База данных (PostgreSQL)
+### 1. База данных построена на (PostgreSQL)
 psql -U postgres -c "CREATE DATABASE ai_task_manager;"
 psql -U postgres -d ai_task_manager -f backend/db/init.sql
 
@@ -33,16 +35,16 @@ cd backend
 npm install
 node server.js
 
-Сервер запущен на http://localhost:3001
+Сервер запущен на http://localhost:3001 (Локалном стостояние)
 
 ### 4. Frontend (React)
 cd frontend
 npm install
 npm start
 
-Приложение откроется на http://localhost:3000
+Приложение откроется на http://localhost:3000  (Локалном стостояние)
 
-## Проверка работы
+## Способы проверка работы
 1. Откройте http://localhost:3000
 2. Зарегистрируйтесь (вкладка Register)
 3. Войдите в систему (вкладка Login)
@@ -53,5 +55,6 @@ npm start
 ## Экспорт задач в CSV
 cd ai-service
 python export_tasks.py
+
 
 
