@@ -92,9 +92,6 @@ npm start
 5. Измените статус через выпадающий список
 6. Удалите задачу кнопкой Delete
 
-## Экспорт задач в CSV
-cd ai-service
-python export_tasks.py
 
 
 
